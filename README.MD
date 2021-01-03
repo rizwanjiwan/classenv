@@ -2,13 +2,14 @@
 Hi This page/repo is for the class I'm holding. It is here to help you get your computer all setup and ready to go before our first class. We'll be starting out with [PHP](https://www.php.net) (language) and moving on from there.
 
 ## Prerequisites
-To take this class you need some basic background, skills and equipment. Specifically:
+To take this class you need some basic background, skills, and equipment. Specifically:
 - Reasonable proficiency using your computer including opening apps & installing apps
-- Proficiency with basic terminal operations. You might be able to muddle through as we go/google what you need. 
+- Proficiency with basic terminal operations. You might be able to muddle through as we go/google what you need
+- Comfort typing at moderate to quick speed
 - A computer that runs either Mac OS X+ or Linux
 
 ## Installing software you need:
-You frankly might not understand any of this but it's important to get this setup out of the way. Over time we'll learn more about all of these.
+You frankly might not understand any of this but it's important to get this setup out of the way. Over time we'll learn more about all of these steps.
 
 Note, if you're on a newer Apple M1 processor, you'll need to reach out to me for some help since some of the commands below won't just work out of the box.
 ### Mac OS X setup: 
