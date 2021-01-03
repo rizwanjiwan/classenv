@@ -45,7 +45,7 @@ Before you do any of this, be sure to open Docker Desktop (Docker.app on Mac OS 
 
 1. Open a terminal and navigate to your Desktop (you can choose some other location and just replace Desktop with any other location of your choice for the rest of the setup), type: `cd ~/Desktop/`
 2. Make a directory where we'll store all of our work, type: `mkdir Code`
-3. Go into that directory and get this repository from github, type: `git clone git@github.com:rizwanjiwan/classenv.git`
+3. Go into that directory `cd Code` and get this repository from github, type: `git clone git@github.com:rizwanjiwan/classenv.git`
 4. Make a directory for our code, type: `mkdir app/www`
 5. Go into the docker project, type: `cd classenv`
 6. Build our docker image (this will take some time), type: `sh ./build.sh`
