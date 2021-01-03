@@ -39,7 +39,7 @@ For other setups, just skip step 1 for the Mac OS X setup above and click on the
 
 ## Setting up a container (Docker)
 
-Docker is a tool we use to build a "container." The simplest way to think about it is it allows us to have a standard "computer inside your computer" which will hold all the stuff we need to run the software we write. Here are the steps to setup our Docker.
+Docker is a tool we use to build a "container." The simplest way to think about it is it allows us to have a standardized "computer inside your computer" which will hold all the stuff we need to run the software we write. Here are the steps to setup our Docker container.
 
 Before you do any of this, be sure to open Docker Desktop (Docker.app on Mac OS X).
 
