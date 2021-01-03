@@ -1,17 +1,17 @@
-#Class Developer Environment
+# Class Developer Environment
 H! This repo is for the class I'm hold. It is here to help you get your computer all setup and ready to go before our first class. We'll be starting out with [PHP](https://www.php.net) (language) and moving on from there.
 
-##Prerequisites
+## Prerequisites
 To take this class you need some basic background, skills and equipment. Specifically:
 - Reasonable proficiency using your computer including opening apps & installing apps
 - Proficiency with basic terminal operations. You might be able to muddle through as we go/google what you need. 
 - A computer that runs either Mac OS X+ or Linux
 
-##Installing software you need:
+## Installing software you need:
 You frankly might not understand any of this but it's important to get this setup out of the way. Over time we'll learn more about all of these.
 
 Note, if you're on a newer Apple M1 processor, you'll need to reach out to me for some help since some of the commands below won't just work out of the box.
-###Mac OS X setup: 
+### Mac OS X setup: 
 1. Open the terminal and install [homebrew](https://brew.sh) with the following command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 2. [Docker Desktop](https://www.docker.com/products/docker-desktop) by opening the terminal and running this command: `brew install --cask docker`
 3. [Git](https://git-scm.com/downloads) for source control by opening the terminal and running this command: `brew install git`
@@ -20,11 +20,11 @@ Note, if you're on a newer Apple M1 processor, you'll need to reach out to me fo
 
 That should set you up with all the core software you need to continue.
 
-###Other operating systems
+### Other operating systems
 
 For other setups, just skip step 1 for the Mac OS X setup above and click on the links to get instructions for your platforms.
 
-##Setting up Visual Studio Code (VSC)
+## Setting up Visual Studio Code (VSC)
 1. Open VSC from your applications folder
 2. At the bottom of the black bar on the left-hand side, click extensions.
 3. Search for and install the following extensions: 
@@ -36,7 +36,7 @@ For other setups, just skip step 1 for the Mac OS X setup above and click on the
    - PHP Intelephense
    - PHP Namespace Resolver 
 
-##Setting up a container (Docker)
+## Setting up a container (Docker)
 
 Docker is a tool we use to build a "container." The simplest way to think about it is it allows us to have a standard "computer inside your computer" which will hold all the stuff we need to run the software we write. Here are the steps to setup our Docker.
 
@@ -62,5 +62,5 @@ In the future you can start and stop the container by clicking the play/stop but
    echo "Hello world!";``
 5. Open your browser and navigate to http://localhost/. You should see "Hello world!" on the screen!
 
-##Summation
+## Summation
 I get it, that seems like a lot, but it's a one time setup, and it will make the rest of our journey together a lot easier. It's important to learn by reading when you're writing code. If you run into any problems above, a quick Google or the error message or other related information will often yield the answer. Please try to self troubleshoot, it's an important skill for sure.
