@@ -25,7 +25,7 @@ That should set you up with all the core software you need to continue.
 
 ### Other operating systems
 
-For other setups, just skip step 1 for the Mac OS X setup above and click on the links to get instructions for your platforms.
+For other setups, just skip step 1 for the Mac OS X setup above and click on the links to get instructions for your platform.
 
 ## Setting up Visual Studio Code (VSC)
 1. Open VSC from your applications folder
