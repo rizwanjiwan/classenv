@@ -1,5 +1,5 @@
 # Class Developer Environment
-H! This repo is for the class I'm hold. It is here to help you get your computer all setup and ready to go before our first class. We'll be starting out with [PHP](https://www.php.net) (language) and moving on from there.
+Hi This page/repo is for the class I'm holding. It is here to help you get your computer all setup and ready to go before our first class. We'll be starting out with [PHP](https://www.php.net) (language) and moving on from there.
 
 ## Prerequisites
 To take this class you need some basic background, skills and equipment. Specifically:
