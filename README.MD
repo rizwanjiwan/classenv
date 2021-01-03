@@ -63,5 +63,7 @@ In the future you can start and stop the container by clicking the play/stop but
    echo "Hello world!";``
 5. Open your browser and navigate to http://localhost/. You should see "Hello world!" on the screen!
 
+Feel free to stop the container now by clicking the stop button in Docker Desktop. 
+
 ## Summation
 I get it, that seems like a lot, but it's a one time setup, and it will make the rest of our journey together a lot easier. It's important to learn by reading when you're writing code. If you run into any problems above, a quick Google or the error message or other related information will often yield the answer. Please try to self troubleshoot, it's an important skill for sure.
