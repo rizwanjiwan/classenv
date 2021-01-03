@@ -59,7 +59,7 @@ You can now close your terminal and open up Docker Desktop. You should see "Cont
 In the future you can start and stop the container by clicking the play/stop buttons next to classenv. Let's test our setup by first clicking play:
 1. Open Visual Studio code
 2. Open the folder "app" we created in step 4 above
-3. Create a file titled index.php inside the qpp/www directory.
+3. Create a file titled index.php inside the app/www directory.
 4. In that file, type the following code and save the file:
 ``<?php
    echo "Hello world!";``
