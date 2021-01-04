@@ -15,17 +15,18 @@ You frankly might not understand any of this but it's important to get this setu
 
 Note, if you're on a newer Apple M1 processor, you'll need to reach out to me for some help since some of the commands below won't just work out of the box.
 ### Mac OS X setup: 
-1. Open the terminal (in your Applications/Utilties folder) and install [homebrew](https://brew.sh) with the following command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-2. [Docker Desktop](https://www.docker.com/products/docker-desktop) by opening the terminal and running this command: `brew install --cask docker`
-3. [Git](https://git-scm.com/downloads) for source control by opening the terminal and running this command: `brew install git`
-4. [Github Desktop](https://desktop.github.com) for an easier interface to Git, run this command: `brew install --cask github`
+1. Open the terminal (in your Applications/Utilties folder) and install xcode by running the following command: `xcode-select --install`
+2. Install [homebrew](https://brew.sh) with the following command in the Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+2. Install [Docker Desktop](https://www.docker.com/products/docker-desktop) by opening the terminal and running this command: `brew install --cask docker`
+3. Install [Git](https://git-scm.com/downloads) for source control by opening the terminal and running this command: `brew install git`
+4. Install [Github Desktop](https://desktop.github.com) for an easier interface to Git, run this command: `brew install --cask github`
 5. Some sort of developer environment for PHP. A totally free one that's very good is [Visual Studio Code](https://code.visualstudio.com) (VSC). Install VSC by running this command `brew install --cask visual-studio-code`
 
 That should set you up with all the core software you need to continue.
 
 ### Other operating systems
 
-For other setups, just skip step 1 for the Mac OS X setup above and click on the links to get instructions for your platform.
+For other setups, just skip step 1 and 2 for the Mac OS X setup above and click on the links to get instructions for your platform.
 
 ## Setting up Visual Studio Code (VSC)
 1. Open VSC from your applications folder
