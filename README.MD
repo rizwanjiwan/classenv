@@ -15,7 +15,7 @@ You frankly might not understand any of this but it's important to get this setu
 
 Note, if you're on a newer Apple M1 processor, you'll need to reach out to me for some help since some of the commands below won't just work out of the box.
 ### Mac OS X setup: 
-1. Open the terminal and install [homebrew](https://brew.sh) with the following command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+1. Open the terminal (in your Applications/Utilties folder) and install [homebrew](https://brew.sh) with the following command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 2. [Docker Desktop](https://www.docker.com/products/docker-desktop) by opening the terminal and running this command: `brew install --cask docker`
 3. [Git](https://git-scm.com/downloads) for source control by opening the terminal and running this command: `brew install git`
 4. [Github Desktop](https://desktop.github.com) for an easier interface to Git, run this command: `brew install --cask github`
