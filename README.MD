@@ -50,9 +50,8 @@ Before you do any of this, be sure to open Docker Desktop (Docker.app on Mac OS 
 3. Go into that directory `cd Code` and get this repository from github, type: `git clone git@github.com:rizwanjiwan/classenv.git`
 4. Make a directory for our code, type: `mkdir app/www`
 5. Go into the docker project, type: `cd classenv`
-6. Build our docker image (this will take some time), type: `sh ./build.sh`
-7. Make a container from our image, type: `docker-compose up`
-8. Wait until you see `Creating classenv_devenviroment_1 ... done` show up (note the "done"). Then hit control-c (ctrl-c) to close down the container.
+6. Make a container, type: `docker-compose up`
+7. Wait until you see `Creating classenv_devenviroment_1 ... done` show up (note the "done"). Then hit control-c (ctrl-c) to close down the container.
 
 You can now close your terminal and open up Docker Desktop. You should see "Containers/Apps" on the left hand side. Select that and then you should see "classenv." 
 
