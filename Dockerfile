@@ -3,24 +3,28 @@ ENV DEBIAN_FRONTEND=noninteractive
 #apt installs
 RUN apt-get update -y
 RUN apt-get upgrade -y
+RUN apt-get install -y software-properties-common
+RUN add-apt-repository -y ppa:ondrej/php
+
+RUN apt-get update -y
+RUN apt-get upgrade -y
 RUN apt-get install -y apache2
 RUN apt-get install -y mysql-server
-RUN apt-get install -y php
-RUN apt-get install -y php-mysql
-RUN apt-get install -y php-bcmath
-RUN apt-get install -y libapache2-mod-php
-RUN apt-get install -y php-curl
-RUN apt-get install -y php-json
-RUN apt-get install -y php-common
-RUN apt-get install -y php-mbstring
-RUN apt-get install -y php-dom
-RUN apt-get install -y php-zip
-RUN apt-get install -y php-imap
-RUN apt-get install -y php-imagick
-RUN apt-get install -y php-gd
+RUN apt-get install -y php8.0
+RUN apt-get install -y libapache2-mod-php8.0
+RUN apt-get install -y php8.0-mysql
+RUN apt-get install -y php8.0-bcmath
+RUN apt-get install -y php8.0-curl
+RUN apt-get install -y php8.0-xml
+RUN apt-get install -y php8.0-common
+RUN apt-get install -y php8.0-mbstring
+RUN apt-get install -y php8.0-dom
+RUN apt-get install -y php8.0-zip
+RUN apt-get install -y php8.0-imap
+RUN apt-get install -y php8.0-imagick
+RUN apt-get install -y php8.0-gd
 RUN apt-get install -y composer
 RUN apt-get -y install cron
-RUN apt-get install -y software-properties-common
 #install app on image
 WORKDIR /app
 
