@@ -54,7 +54,7 @@ Before you do any of this, be sure to open Docker Desktop (Docker.app on Mac OS 
 6. Make a container, type: `docker-compose up`
 7. Wait until you see `Creating classenv_devenviroment_1 ... done` show up (note the "done"). Then hit control-c (ctrl-c) to close down the container.
 
-You can now close your terminal and open up Docker Desktop. You should see "Containers/Apps" on the left hand side. Select that and then you should see "classenv." 
+You can now close your terminal and open up Docker Desktop and skip any tutorial you are offered. You should see "Containers/Apps" on the left hand side. Select that and then you should see "classenv." 
 
 In the future you can start and stop the container by clicking the play/stop buttons next to classenv. Let's test our setup by first clicking play:
 1. Open Visual Studio code
