@@ -44,7 +44,7 @@ For other setups, just skip step 1 and 2 for the Mac OS X setup above and click 
 
 Docker is a tool we use to build a "container." The simplest way to think about it is it allows us to have a standardized "computer inside your computer" which will hold all the stuff we need to run the software we write. Here are the steps to setup our Docker container.
 
-Before you do any of this, be sure to open Docker Desktop (Docker.app on Mac OS X).
+Before you do any of this, be sure to open Docker Desktop (Docker.app on Mac OS X) and skip any tutorial you are offered.
 
 1. Open a terminal and navigate to your Desktop (you can choose some other location and just replace Desktop with any other location of your choice for the rest of the setup), type: `cd ~/Desktop/`
 2. Make a directory where we'll store all of our work, type: `mkdir Code`
