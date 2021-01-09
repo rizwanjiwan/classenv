@@ -43,6 +43,8 @@ RUN rm /etc/apache2/sites-available/000-default.conf
 COPY dockerfiles/000-default.conf /etc/apache2/sites-available/000-default.conf
 RUN rm /etc/apache2/sites-available/default-ssl.conf
 COPY dockerfiles/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
+#entrypoint
+COPY dockerfiles/entrypoint.sh /entrypoint.sh
 
 #part 3 enable and apache site/module
 WORKDIR /etc/apache2/sites-available/
@@ -63,4 +65,4 @@ EXPOSE 3306
 #go!
 WORKDIR /app/
 
-ENTRYPOINT ["apachectl","-D", "FOREGROUND"]
+ENTRYPOINT /entrypoint.sh

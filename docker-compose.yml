@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   devenviroment:
-    image: "rizwanjiwan/devenviroment:1.1"
+    image: "rizwanjiwan/devenviroment:1.2"
     ports:
       - "3306:3306"
       - "80:80"

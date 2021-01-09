@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t rizwanjiwan/devenviroment:1.1 ./
+docker build -t rizwanjiwan/devenviroment:1.2 ./
