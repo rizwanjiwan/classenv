@@ -63,4 +63,4 @@ EXPOSE 3306
 #go!
 WORKDIR /app/
 
-ENTRYPOINT apachectl -D FOREGROUND
+ENTRYPOINT ["apachectl","-D", "FOREGROUND"]
