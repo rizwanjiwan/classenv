@@ -33,6 +33,7 @@ RUN rm /etc/mysql/mysql.conf.d/mysqld.cnf
 COPY dockerfiles/mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf
 
 #setup apache:
+COPY dockerfiles/apache2.conf /etc/apache2/apache2.conf
 #part 1, get ssl certs/keys setup
 COPY dockerfiles/apache-selfsigned.crt /etc/ssl/certs/apache-selfsigned.crt
 COPY dockerfiles/apache-selfsigned.key  /etc/ssl/private/apache-selfsigned.key
